@@ -1,0 +1,8 @@
+td:has(:not(input:placeholder-shown)) + th {
+  background-color: red;
+}
+
+tr {
+  display: flex;
+  flex-direction: row-reverse;
+}
